@@ -1,0 +1,64 @@
+/*E3DBDB - light colour
+4E3D42 - dark colour
+*/
+
+.body{
+    background-color: #E3DBDB;
+    text-align: center;
+}
+
+.inputSettings{
+    margin:0 auto;
+    width:fit-content;
+    padding: 2%;
+    border: thick double rgb(207, 176, 132);
+    background-color: #E8DDB5;
+}
+
+.nonoSettings{
+    margin:0 auto;
+    width:fit-content;
+    padding: 2%;
+    border: thick double rgb(207, 176, 132);
+    background-color: #E8DDB5;
+}
+
+#title{
+    color: #4E3D42;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 4vw;
+}
+
+.solutionSettings{
+    margin:0 auto;
+    width:fit-content;
+    padding: 2%;
+    border: thick double rgb(207, 176, 132);
+    background-color: #E8DDB5;
+}
+
+.solutionGrid{
+    display: grid;
+    width: 80%;
+    background-color: #E8DDB5;
+    padding: 10px;
+}
+
+.solutionCell {
+    background-color: rgb(41, 33, 33);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(41, 33, 33)
+}
+
+.emptyCell {
+    background-color: rgb(230, 226, 210);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(230, 226, 210);
+}
